@@ -32,7 +32,7 @@ print(listnr)
 #     if x not in perop:
 #         x = input("Please insert an operation: ")
 #     else:
-#         opernr.append(x)"""
+#         opernr.append(x)
 
 
 class FormulaError(Exception):
@@ -104,4 +104,4 @@ while oper > 0:
     oper = oper - 1
     ecuatie = ecuatie[3:]
     ecuatie.insert(0, ras)
-    print(ecuatie)
+    print(ecuatie)"""
